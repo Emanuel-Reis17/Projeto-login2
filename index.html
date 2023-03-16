@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <title>Log in</title>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <section class="image">
+                <!--Insert the image with CSS-->
+                <h1 id="title">Welcome to <br><span>The Mountain.</span></h1>
+            </section>
+            
+            <section class="forms">
+                <h1>Log in</h1>
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <div class="login">
+                        <label for="xemail">Email</label>
+                        <input type="email" name="email" id="xemail" required autocomplete="email" size="15" placeholder="Type your email here">
+                    </div>
+                    <div class="login">
+                        <label for="xpassword">Password</label>
+                        <input type="password" name="password" id="xpassword" required autocomplete="on" size="15" placeholder="Type your passoword">
+                    </div>
+                    <div class="botton">
+                        <input type="submit" value="Log in">
+                    </div>
+                    <div class="botton">
+                        <input type="reset">
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

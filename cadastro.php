@@ -1,0 +1,1 @@
+Não existe banco de dados para armazenar estas informações

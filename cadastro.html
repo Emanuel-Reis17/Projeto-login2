@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <title>Sign up</title>
+    <style>
+        :root {
+            --color1: #1D2A35;
+            --color2: #141d24;
+            --color3: #283a49;
+        } 
+
+        html, body {
+            background-color: var(--color2);
+        }
+
+        #container {
+            background-color: var(--color1);
+        }
+
+        
+
+        section.image {
+            background-image: url('images/pexels-trace-hudson-2724664.jpg');
+        }
+
+        section.forms label {
+            color: white;
+        }
+
+        section.forms input {
+            background-color: var(--color2);
+        }
+
+        form > div.botton > a {
+            background-color: var(--color2);
+        }
+
+        form > div.botton > a.fmp {
+            background-color: var(--color3);
+            color: white;
+        }
+
+        form > div.botton a:hover, a.fmp:hover {
+            background-color: white;
+            color: var(--color3);
+            box-shadow: 1px 1px 3px var(--color2);
+            transition-duration: 0.5s;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 992) {
+
+            #container {
+            width: 700px;
+            height: 600px;
+            }
+        }
+
+        @media  screen and (min-width: 992px) {
+    
+            #container {
+                width: 950px;
+                height: 520px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <section class="image">
+                <!--Put the image here-->
+                <h1 id="title">Join<br><span>The Mountain.</span></h1>
+            </section>
+            <section class="forms">
+                <h1>Sign up</h1>
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <div class="login">
+                        <label for="xname">Name</label>
+                        <input type="text" name="name" id="xname" required autocomplete="off" size="20" placeholder="Type your name here">
+                    </div>
+                    <div class="login">
+                        <label for="xemail">Email</label>
+                        <input type="email" name="email" id="xemail" required autocomplete="email" size="20" placeholder="Type your email here">
+                    </div>
+                    <div class="login">
+                        <label for="xpassword">Password</label>
+                        <input type="password" name="password" id="xpassword" required autocomplete="on" size="20" placeholder="Type your password">
+                    </div>
+                    <div class="login">
+                        <label for="xpassword">Confirm your password</label>
+                        <input type="password" name="password" id="xpassword" required autocomplete="on" size="20" placeholder="Type your password">
+                    </div>
+                    <div class="botton">
+                        <a href="cadastro.php">Sign up</a>
+                        <a class="fmp" href="index.html">I have a account</a>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

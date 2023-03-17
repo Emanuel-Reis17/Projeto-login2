@@ -38,7 +38,7 @@ main {
     top: 50%;
     left: 50%;
     background-color: var(--color5);
-    height: 650px;
+    height: 690px;
     width: 330px;
     border-radius: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.589);
@@ -54,7 +54,7 @@ section.image {
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
-    height: 50%;
+    height: 30%;
     
 }
 
@@ -104,6 +104,8 @@ div.login input {
     padding: 10px;
     border: none;
     border-radius: 10px;
+
+    columns: 2;
 }
 
 form > div.botton > a {
@@ -124,9 +126,9 @@ form > div.botton > a.fmp {
     color: var(--color4);
 }
 
-form > div.botton > a.fmp:focus-within {
+form > div.botton a:hover, a.fmp:hover {
     background-color: white;
     color: var(--color3);
-    border: 1px solid var(--color1);
-    
+    box-shadow: 1px 1px 3px var(--color2);
+    transition-duration: 0.5s;
 }

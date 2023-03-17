@@ -22,6 +22,19 @@
         float: right;
         width: 50%;
     }
+
+    section.forms > h1 {
+       font-size: 2.5em;
+       margin: 10px 0px 10px 5px;
+    }
+
+    section.forms > label {
+        margin: 5px;
+    }
+
+    div.botton {
+        margin-top: 40px;
+    }
 }
 
 @media  screen and (min-width: 992px) {
@@ -40,7 +53,7 @@
         height: 100%;
     }
 
-    section.form {
+    section.forms {
         float: left;
         width: 50%;
     }
@@ -48,4 +61,13 @@
     section.image > h1#title {
         font-size: 2.0em;
     }
+
+    section.forms > h1 {
+        font-size: 2.5em;
+        margin: 10px 0px 10px 5px;
+     }
+
+     div.botton {
+        margin-top: 20px;
+     }
 }

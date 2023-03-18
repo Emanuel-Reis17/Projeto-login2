@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+:root {
+    --color1: #172532;
+    --color2: #111b25;
+}
+
+html, body {
+    background-color: var(--color2);
+}
+
+#container {
+    background-color: var(--color1);
+}
+
+section.image {
+    background-image: url('../images/pexels-trace-hudson-2724664.jpg');
+}
+
+section.forms label {
+    color: white;
+}
+
+section.forms input {
+    background-color: var(--color2);
+}

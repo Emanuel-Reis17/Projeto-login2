@@ -38,7 +38,7 @@ main {
     top: 50%;
     left: 50%;
     background-color: var(--color5);
-    height: 690px;
+    height: 650px;
     width: 330px;
     border-radius: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.589);
@@ -54,7 +54,7 @@ section.image {
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
-    height: 30%;
+    height: 50%;
     
 }
 
@@ -104,8 +104,6 @@ div.login input {
     padding: 10px;
     border: none;
     border-radius: 10px;
-
-    columns: 2;
 }
 
 form > div.botton > a {
